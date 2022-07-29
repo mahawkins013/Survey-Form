@@ -1,0 +1,77 @@
+form {
+    width: 500px;
+    margin: 50 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  fieldset {
+    background-color: transparent;
+    background-color: #364a61;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  body {
+    font-family: Courier New;
+    color: #ffffff; 
+    background-image: linear-gradient(#456383, black);
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  input, label {
+    display: block;
+    margin: 0 0.5em 0 0;
+    font-family: Courier New; 
+  }
+  
+  .inline {
+    display: block;
+    width: unset;
+    float: left;
+  }
+  /* need to fix the inline text to be on same line*/
+  
+  textarea, input {
+    display: block;
+    background-color: #aa6839;
+    color: white;
+  }
+  
+  textarea {
+    margin: 20px 73px;
+    text-align: left;
+    font-family: Courier New;
+    width: 70%;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 70%;
+    height: 2em;
+    font-size: 1em;
+    margin: 2em auto;
+    color: white;
+    background-color: #aa6839;
+    border-color: white; 
+  }
+  
+  .request, .question  {
+    margin: 1em 1em 0 0;
+  }
+  
+  select {
+    background-color: #aa6839;
+    color: #ffffff;
+  }
+  
+  input[type="number"] {
+    width: 75px;
+  }  
