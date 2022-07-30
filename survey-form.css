@@ -33,7 +33,6 @@ form {
     width: unset;
     float: left;
   }
-  /* need to fix the inline text to be on same line*/
   
   textarea, input {
     display: block;
